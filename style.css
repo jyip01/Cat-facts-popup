@@ -1,0 +1,40 @@
+.wrapper, .container {
+    display: flex;
+    align-items:center;    
+    flex-direction: column;
+    background-color: white;
+    size: 100vh;
+}
+
+h1 {
+    font-family: 'Codystar', cursive;
+    color: black;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+
+section {
+
+    position: relative;
+    height: 50vh;
+    width: 80vw;
+    margin-top: 5vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    padding: 55px;
+    border: solid;
+    /* border-radius: 60px; */
+    border-color: black;
+    background-image: url(./assets/cat-img.jpeg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: right;
+}
